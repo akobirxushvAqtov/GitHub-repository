@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +34,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+video{
+  width: 350px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 100px;
+}
+img{
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 102px;
+  left: 102px;
+  object-fit: cover;
+  transition: .3s;
+}
+li{
+  list-style: none;
+}
+
+h1{
+  text-align: center;
+}
+span{
+  cursor: pointer;
+  display: block;
+  margin-left: 5px;
+}
+span:hover{
+  /* color: red; */
+  transform: translateX(10px);
+  transition: .3s;
+}
+.usersName{
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(0, 30, 255);
 }
